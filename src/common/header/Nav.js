@@ -136,6 +136,10 @@ const Nav = () => {
           <li>
             <Link to={process.env.PUBLIC_URL + `/contact`}>Contact</Link>
           </li>
+
+          <li>
+            <Link to={process.env.PUBLIC_URL + `/faq`}>Careers</Link>
+          </li>
         </ul>
       </nav>
     </div>

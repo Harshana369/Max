@@ -78,7 +78,8 @@ export default class HeaderOne extends React.Component {
                         </div>
                         <div className="text-box">
                           <h3>Our Location</h3>
-                          <p>25/7 Barden, London</p>
+                          <p>No: 47/A, Banduragoda Estate</p>
+                          <p>Banduragoda</p>
                         </div>
                       </li>
 
@@ -90,7 +91,7 @@ export default class HeaderOne extends React.Component {
                           <h3>Online Support</h3>
                           <p className="email">
                             <a href="mailto:needhelp@company.com">
-                              info@Const24.com
+                              maxsonsengineeringme@gmail.com
                             </a>
                           </p>
                         </div>
@@ -103,7 +104,7 @@ export default class HeaderOne extends React.Component {
                         <div className="text-box">
                           <h3>Free Contact</h3>
                           <p className="number">
-                            <a href="tel:123456789">02-425-562-2457</a>
+                            <a href="tel:123456789">074 073 7788</a>
                           </p>
                         </div>
                       </li>

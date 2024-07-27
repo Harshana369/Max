@@ -148,7 +148,7 @@ export default class FooterOne extends React.Component {
                         <Link to="/">Maxsons</Link>
                       </p>
                     </div>
-
+                    {/* 
                     <div className="footer-one__bottom-list">
                       <ul>
                         <li>
@@ -158,10 +158,10 @@ export default class FooterOne extends React.Component {
                           <Link to="/about-one"> Services</Link>
                         </li>
                         <li>
-                          <Link to="/about-one">Careers</Link>
+                          <Link to="/">Careers</Link>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
