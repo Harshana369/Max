@@ -14,8 +14,8 @@ const MetrialManagment = () => {
         heading="Civil Engineering "
         currentPage="Civil Engineering "
       />
-      {/* <SingleMetrialManagment />
-            <BrandOne /> */}
+      <SingleMetrialManagment />
+      <BrandOne />
       <FooterOne />
     </>
   );

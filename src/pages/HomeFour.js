@@ -16,14 +16,14 @@ const HomeFour = () => {
     <>
       <HeaderOne />
 
-      <HeroOne />
+      {/* <HeroOne /> */}
       {/* <CounterOne /> */}
       <AboutThree />
       <WhyChooseThree />
-      <CtaOne />
+      {/* <CtaOne /> */}
       <FaqOne />
-      <CounterTwo />
-      <CtaTwo />
+      {/* <CounterTwo /> */}
+      {/* <CtaTwo /> */}
       {/* <BlogOne /> */}
       <FooterOne />
     </>

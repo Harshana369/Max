@@ -15,8 +15,8 @@ const GeneralContracting = () => {
         heading="Eletrical Engineering"
         currentPage="Eletrical Engineering"
       />
-      {/* <SingleGeneralContracting /> */}
-      {/* <BrandOne /> */}
+      <SingleGeneralContracting />
+      <BrandOne />
       <FooterOne />
     </>
   );

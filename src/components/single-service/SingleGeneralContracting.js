@@ -59,24 +59,25 @@ export default class SingleGeneralContracting extends React.Component {
                   </div>
                   <div className="services-details__text-box1">
                     <div className="title">
-                      <h2>General Contracting</h2>
+                      {/* <h2>General Contracting</h2> */}
                     </div>
                     <p className="text-1">
-                      Labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nexercitatiullamco laboris nisi ut aliquip ex ea
-                      commodo consequat. Duis aute irure dolreprehenderit in
-                      voluptate velit esse cillum dolore eu fugiat nulla
-                      pariatur. Excepteur sint{" "}
+                      Designing electrical systems for buildings, including
+                      lighting, power distribution, and safety systems.
+                      Implementing energy-efficient solutions and incorporating
+                      renewable energy sources where possible. Ensuring
+                      compliance with electrical codes and standards.
+                      Architectural Designing:
                     </p>
 
-                    <p className="text-2">
+                    {/* <p className="text-2">
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco
                       laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                       irure dolor in reprehenderit in voluptate{" "}
-                    </p>
+                    </p> */}
                   </div>
 
-                  <div className="services-details__text-box2">
+                  {/* <div className="services-details__text-box2">
                     <div className="row">
                       <div className="col-xl-5">
                         <div className="services-details__text-box2-img">
@@ -173,7 +174,7 @@ export default class SingleGeneralContracting extends React.Component {
                         </div>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
                   {/* Start Services Details Tab Box */}
                   <div className="services-details__tab-box">
@@ -181,7 +182,7 @@ export default class SingleGeneralContracting extends React.Component {
                       <div className="col-xl-12">
                         <div className="services-details__tab tabs-box">
                           <div className="services-details__tab-button">
-                            <ul className="tab-buttons clearfix">
+                            {/* <ul className="tab-buttons clearfix">
                               <li
                                 data-tab="#materials"
                                 className="tab-btn active-btn"
@@ -197,12 +198,12 @@ export default class SingleGeneralContracting extends React.Component {
                               <li data-tab="#support" className="tab-btn">
                                 <h4>Super Support</h4>
                               </li>
-                            </ul>
+                            </ul> */}
                           </div>
 
                           <div className="tabs-content">
                             {/* Start Tab */}
-                            <div className="tab active-tab" id="materials">
+                            {/* <div className="tab active-tab" id="materials">
                               <div className="services-details__tab-content-item">
                                 <div className="quality-materials-tab-box">
                                   <div className="row">
@@ -239,11 +240,11 @@ export default class SingleGeneralContracting extends React.Component {
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                             {/* End Tab */}
 
                             {/* Start Tab */}
-                            <div className="tab" id="design">
+                            {/* <div className="tab" id="design">
                               <div className="services-details__tab-content-item">
                                 <div className="interior-design-tab-box">
                                   <div className="row">
@@ -280,11 +281,11 @@ export default class SingleGeneralContracting extends React.Component {
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                             {/* End Tab */}
 
                             {/* Start Tab */}
-                            <div className="tab" id="care">
+                            {/* <div className="tab" id="care">
                               <div className="services-details__tab-content-item">
                                 <div className="personal-care-tab-box">
                                   <div className="row">
@@ -321,11 +322,11 @@ export default class SingleGeneralContracting extends React.Component {
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                             {/* End Tab */}
 
                             {/* Start Tab */}
-                            <div className="tab" id="support">
+                            {/* <div className="tab" id="support">
                               <div className="services-details__tab-content-item">
                                 <div className="super-support-tab-box">
                                   <div className="row">
@@ -380,7 +381,7 @@ export default class SingleGeneralContracting extends React.Component {
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                             {/* End Tab */}
                           </div>
                         </div>
@@ -393,63 +394,7 @@ export default class SingleGeneralContracting extends React.Component {
               {/* End Services Details Content */}
 
               {/* Start Services Details Sidebar */}
-              <div className="col-xl-5 col-lg-5">
-                <div className="services-details__sidebar">
-                  <ServiceSearch />
 
-                  {/* Start Services Details Sidebar Single */}
-                  <div className="services-details__sidebar-single services-details-category">
-                    <div className="title">
-                      <h2>Services Category</h2>
-                    </div>
-                    <ul className="services-details-category-list">
-                      <li>
-                        <Link
-                          to={process.env.PUBLIC_URL + `/general-contracting`}
-                          className="active"
-                        >
-                          General Contracting
-                          <span className="icon-right-arrow"></span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to={process.env.PUBLIC_URL + `/metrial-managment`}
-                        >
-                          Metrial Managment
-                          <span className="icon-right-arrow"></span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to={process.env.PUBLIC_URL + `/building-renovation`}
-                        >
-                          Building Renovation
-                          <span className="icon-right-arrow"></span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to={process.env.PUBLIC_URL + `/architecture-design`}
-                        >
-                          Architecture Design
-                          <span className="icon-right-arrow"></span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to={process.env.PUBLIC_URL + `/multistory-build`}>
-                          Multistory Build
-                          <span className="icon-right-arrow"></span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* End Services Details Sidebar Single */}
-
-                  <ButtonBox />
-                  <ServiceContactBox />
-                </div>
-              </div>
               {/* End Services Details Sidebar */}
             </div>
           </div>

@@ -9,7 +9,7 @@ export default class LogoBox extends React.Component {
         <div className="logo-box">
           <Link to={process.env.PUBLIC_URL + `/`}>
             <img
-              src={publicUrl + "assets/images/resources/stricky-logo.png"}
+              src={publicUrl + "assets/images/resources/MAXSONS LOGO - PNG.png"}
               alt="Logo"
             />
           </Link>

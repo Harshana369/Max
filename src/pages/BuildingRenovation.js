@@ -14,8 +14,8 @@ const BuildingRenovation = () => {
         heading="Eletronic Engineering"
         currentPage="Eletronic Engineering"
       />
-      {/* <SingleBuildingRenovation />
-            <BrandOne /> */}
+      <SingleBuildingRenovation />
+      <BrandOne />
       <FooterOne />
     </>
   );

@@ -59,7 +59,7 @@ export default class AboutThree extends React.Component {
                     <div className="sec-title__tagline">
                       <h6> ABOUT US </h6> <span className="right"></span>
                     </div>
-                    <h2 className="sec-title__title">MaxSons Family</h2>
+                    <h2 className="sec-title__title">Maxsons Family</h2>
                   </div>
 
                   <div className="about-three__content-inner">
